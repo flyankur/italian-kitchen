@@ -1,0 +1,359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: victoria\n"
+"POT-Creation-Date: 2013-01-19 01:50+0530\n"
+"PO-Revision-Date: 2013-01-19 01:50+0530\n"
+"Last-Translator: \n"
+"Language-Team: aivahthemes <info@aivahthemes.com>\n"
+"Language: english\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _e;__;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:31 ../template_sitemap.php:38
+msgid "Pages"
+msgstr ""
+
+#: ../404.php:37
+msgid "Feed"
+msgstr ""
+
+#: ../404.php:39 ../template_sitemap.php:45
+msgid "Main RSS"
+msgstr ""
+
+#: ../404.php:40 ../template_sitemap.php:46
+msgid "Comment Feed"
+msgstr ""
+
+#: ../404.php:46 ../template_sitemap.php:51
+#: ../framework/custom-meta/shortcode-meta.php:1535
+msgid "Categories"
+msgstr ""
+
+#: ../404.php:49 ../sidebar-home.php:25 ../template_sitemap.php:56
+msgid "Archives"
+msgstr ""
+
+#: ../404.php:63 ../archive.php:43 ../author.php:67 ../category.php:41
+#: ../index.php:111 ../page.php:64 ../search.php:86 ../single-menus.php:39
+#: ../single.php:43 ../tag.php:73 ../taxonomy-menutype.php:67
+#: ../template_blog-style1.php:109 ../template_blog-style2.php:110
+#: ../template_blog-style3.php:113 ../template_menu.php:81
+#: ../template_reservation.php:347 ../template_sitemap.php:72
+msgid "Top"
+msgstr ""
+
+#: ../author.php:31
+#, php-format
+msgid "Author : %s"
+msgstr ""
+
+#: ../comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:34
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:35
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:59
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:59
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:62
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment"
+msgstr ""
+
+#: ../comments.php:70
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: ../comments.php:74 ../framework/custom-meta/shortcode-meta.php:2273
+#: ../framework/shortcode/contactform.php:35
+#: ../framework/widgets/contactform.php:55
+#: ../framework/shortcode/contactform.php:11
+msgid "Name"
+msgstr ""
+
+#: ../framework/shortcode/contactform.php:12
+#: ../framework/shortcode/contactform.php:36
+#: ../comments.php:78
+msgid "E-mail"
+msgstr ""
+
+#: ../comments.php:82
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:92
+msgid "Post Comment"
+msgstr ""
+
+#: ../comments.php:93
+msgid "You can use these tags"
+msgstr ""
+
+#: ../contactsend.php:30
+msgid "Please enter your name."
+msgstr ""
+
+#: ../contactsend.php:36
+msgid "Please enter e-mail address"
+msgstr ""
+
+#: ../contactsend.php:42
+msgid "Please enter a valid e-mail address."
+msgstr ""
+
+#: ../contactsend.php:49
+msgid "Please enter your Phone Number. It should have 10 digits."
+msgstr ""
+
+#: ../contactsend.php:53
+msgid "Please enter numeric characters in Phone Number field."
+msgstr ""
+
+#: ../contactsend.php:59
+msgid "Please enter your subject."
+msgstr ""
+
+#: ../contactsend.php:65
+msgid "Please enter the Correct verification number."
+msgstr ""
+
+#: ../contactsend.php:71
+msgid "Please enter your message. It should have at least 5 characters."
+msgstr ""
+
+#: ../functions.php:205
+msgid "<p>Primary Menu <br><small>This will appear beside Logo</small></p>"
+msgstr ""
+
+#: ../header.php:35
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../loop-menus.php:47
+msgid "Edit Item"
+msgstr ""
+
+#: ../loop-menus.php:61 ../loop-single.php:81 ../loop-taxonomy.php:46
+#: ../loop.php:60 ../search.php:65 ../template_blog-style1.php:93
+#: ../template_blog-style2.php:88 ../template_blog-style3.php:97
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: ../loop-single.php:14 ../loop-taxonomy.php:29 ../loop.php:16
+#: ../search.php:36 ../template_blog-style1.php:58
+#: ../template_blog-style2.php:65 ../template_blog-style3.php:70
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../loop-single.php:21 ../loop.php:23
+msgid "0 Comments"
+msgstr ""
+
+#: ../loop-single.php:21 ../loop.php:23
+#: ../framework/common/atp_generator.php:521
+#: ../framework/common/atp_generator.php:548
+#: ../framework/common/atp_generator.php:569
+msgid "1 Comment"
+msgstr ""
+
+#: ../loop-single.php:21 ../loop.php:23
+#: ../framework/common/atp_generator.php:521
+#: ../framework/common/atp_generator.php:548
+#: ../framework/common/atp_generator.php:569
+msgid "% Comments"
+msgstr ""
+
+#: ../loop-single.php:22 ../page.php:40 ../template_menu.php:70
+#: ../framework/common/atp_generator.php:749
+#: ../framework/common/atp_generator.php:776
+#: ../framework/common/atp_generator.php:822
+msgid "Edit"
+msgstr ""
+
+#: ../page.php:33
+msgid "Pages:"
+msgstr ""
+
+#: ../search.php:14 ../framework/common/atp_generator.php:375
+msgid "Search Results"
+msgstr ""
+
+#: ../search.php:15
+msgid "Search Results for"
+msgstr ""
+
+#: ../sidebar-home.php:34
+msgid "Meta"
+msgstr ""
+
+#: ../tag.php:19 ../framework/common/atp_generator.php:369
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../tag.php:48
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: ../template_sitemap.php:43
+msgid "Feeds"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:355
+msgid "Archive"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:357
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:359
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:361
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:379
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:521
+#: ../framework/common/atp_generator.php:548
+msgid "0 Comment"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:569
+msgid "0 comment"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:594
+#: ../framework/plugins/breadcrumbs-plus/breadcrumbs-plus.php:51
+msgid "Home"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:598
+#: ../framework/custom-meta/shortcode-meta.php:2756
+msgid "Blog"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:643
+#: ../framework/custom-meta/shortcode-meta.php:2248
+msgid "Related Posts"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:749
+msgid "Pingback:"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:765
+#, php-format
+msgid "%1$s %2$s <span class=\"says\">said:</span>"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:771
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:780
+#: ../framework/common/atp_generator.php:827
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../framework/common/atp_generator.php:788
+msgid "Reply"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:807
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../framework/common/atp_generator.php:808
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../framework/includes/submitform.php:42
+msgid "Your message was successfully sent."
+msgstr ""
+
+#: ../framework/plugins/breadcrumbs-plus/breadcrumbs-plus.php:50
+msgid "You are here: "
+msgstr ""
+
+#: ../framework/plugins/breadcrumbs-plus/breadcrumbs-plus.php:140
+#: ../framework/plugins/breadcrumbs-plus/breadcrumbs-plus.php:143
+#: ../framework/plugins/breadcrumbs-plus/breadcrumbs-plus.php:146
+msgid "Archives for "
+msgstr ""
+
+#: ../framework/plugins/breadcrumbs-plus/breadcrumbs-plus.php:150
+msgid "Archives by: "
+msgstr ""
+
+#: ../framework/plugins/breadcrumbs-plus/breadcrumbs-plus.php:155
+msgid "Search results for \""
+msgstr ""
+
+#: ../framework/plugins/breadcrumbs-plus/breadcrumbs-plus.php:159
+msgid "Page Not Found"
+msgstr ""
+
+#: ../framework/shortcode/contactform.php:25
+msgid "Captcha"
+msgstr ""
+
+#: ../framework/shortcode/contactform.php:41
+#: ../framework/shortcode/contactform.php:26
+#: ../framework/widgets/contactform.php:62
+msgid "Submit"
+msgstr ""
+
+#: ../framework/shortcode/contactform.php:37
+#: ../framework/widgets/contactform.php:57
+msgid "Message"
+msgstr ""
+
+#: ../framework/shortcode/contactform.php:38
+#: ../framework/widgets/contactform.php:58
+msgid "Captcha"
+msgstr ""
+
+#: ../framework/shortcode/foodmenu.php:12
+#: ../framework/shortcode/todayspecial.php:12
+msgid ""
+"Sorry but we could not find what you were looking for. But don'\\t give up, "
+"keep at it"
+msgstr ""

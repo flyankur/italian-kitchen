@@ -1,0 +1,322 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Victoria</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js" ></script>
+	<script type="text/javascript">
+	$(function(){
+		var toc, position;
+		// toc = table of contents
+
+		$(".nav ol li a").click(function(){
+			$(".nav ol li").removeClass('active');
+			
+			hlink = $(this).attr("href");
+			
+			position  = $(hlink).position().top;
+			$('html, body').animate({scrollTop:position}, 'slow');
+			$(this).parent().addClass('active');
+			return false;
+			});
+	});
+	</script>
+	</head>
+<body>
+
+<div class="wrapper">
+	<div class="content clearfix">
+		
+	<div class="nav">
+			
+			<div class="about">
+				<h1>Victoria <span>Restaurant Wordpress Theme</span></h1>
+				<span><strong>Created: 12th Dec 2011</strong></span>
+				<span>By: <a href="http://themeforest.net/user/system32">System32</a></span>
+				<span>Contact: <a href="http://themeforest.net/user/system32">Contact Form</a> </span>
+			</div>
+	
+		<ol>
+	        <li class="active"><a href="#1">Installing Wordpress</a></li>
+	        <li><a href="#2">Installing the theme</a></li>
+	        <li><a href="#3">Navigation/Menu Setup</a></li>
+	        <li><a href="#4">Sliders Setup</a></li>
+	        <li><a href="#5">Frontpage Content Layout</a></li>
+	        <li><a href="#6">Custom Sidebars Setup</a></li>
+	        <li><a href="#7">Food Menu</a></li>
+	        <li><a href="#8">Food Menu Page <mark>New</mark></a></li>
+	        <li><a href="#9">Todays Special</a></li>	
+	        <li><a href="#10">Reservation Table</a></li>
+	        <li><a href="#11">Victoria Options</a></li>
+	        <li><a href="#12">Blog Page Setup</a></li>
+			<li><a href="#13">Shortcodes</a></li>
+			<li><a href="#14">Footer Setup</a></li>
+			<li><a href="#15">Custom Font</a></li>
+			<li><a href="#16">Colors</a></li>
+			<li><a href="#17">Import/Export Sample Data</a></li>
+			<li><a href="#18">Sidebar Layout</a></li>
+			<li><a href="#19">Get the Code</a></li>
+        </ol>
+	</div>
+  
+  
+<div class="documentation">
+	<!-- ################################# -->
+	<div id="1">
+		<h2 class="name">01<span>Installing Wordpress</span></h2>
+		<p><strong>Useful links to get you started on Wordpress Installation</strong></p>
+		<ul>
+			<li><a href="http://codex.wordpress.org/Getting_Started_with_WordPress">Getting Started with WordPress</a></li>
+			<li><a href="http://codex.wordpress.org/New_To_WordPress_-_Where_to_Start">New To WordPress - Where to Start</a></li>
+			<li><a href="http://www.solostream.com/blog/tutorials/how-to-install-wordpress/">How to Install WordPress</a></li>
+		</ul>
+
+		<p>After you've installed WordPress and when everything is working fine as it should you need to go over some settings, just to make sure your wordpress is working without any problems.</p>
+		<ul>
+			<li>Activate the threaded comments, go to <strong>Setings &rarr; Discussion</strong> and select <strong>Enable threaded (nested) comment 5 levels deep.</strong></li>
+			<li>Change permalinks by going to  <strong>Settings &rarr; Permalinks</strong> and select <strong>“Custom Structure”</strong> write <em>/%postname%/ </em> inside the input field, there’s one problem though, some hosts handles these permalink settings differently, when the normal method does not work try to ad this <em>index.php?/%postname%/</em> or else contact your host for help on this matter. Some hosts may have mod_security options enabled so you need to copy the given code when you save changes for Custom Structure and paste in the ".htaccess" in your wordpress root directory.</li>
+		</ul>
+		<p>That's it for activating and installing wordpress theme and general settings.</p>
+	</div>
+	<!-- ################################# -->
+	<div id="2">
+		<h2 class="name">02<span>Installing the theme</span></h2>
+		<p class="note">Our themes uses TimThumb to resize the images.</p>
+		<p>TimThumb requires the <a href="http://www.libgd.org/Main_Page" target="blank">GD library</a>, which is available on many hosting severs with PHP 4.3+ installed. Please set the cache folder permission to 777 if images are not showing after activating theme and setting slider. Still encountering problems with your images, then please visit <a href="http://themeforest.net/forums/thread/tim-thumb-problem/32860?page=1#311234">tim thumb not working</a> topic which was discussed on themeforest forum for help on solving the timthumb issue. If you don't want to use the timthumb then you need to use the appropriate sizes for the post thumbnails and slider images and disable the timthumb option from Energetic &rarr; Theme Options &rarr; General Tab.</em></p>
+		
+		<h4><span class="note">!important</span> Before you begin.</h4>
+		<ul>
+			<li>Don't look at the front-end of the theme until you finish all the steps and options saved in theme Options Panel.</li>
+			<li>After activating the theme go to theme options and click save changes first to load the default settings for the theme.</li>
+			<li>Just incase you get any error while activating theme, instead of posting on themeforest item comments section drop me an email from my themeforest profile page contact form for an instant support.</li>
+		</ul>
+        <ol>
+			<li><p>Once you download package from themeforest unzip the package. The following folders will be available.
+				<ul> 
+					<li><strong>Themefiles</strong> - themes folder that you need upload in your wordpress themes folder.</li>
+					<li><strong>Resources</strong> - all layered psd sources.</li>
+					<li><strong>License</strong> - license for the theme.</li>
+					<li><strong>documentation</strong> - documentation file for theme installation.</li>
+					<li><strong>victoria.zip</strong> - victoria.zip file ready to upload in wordpress themes.</li>
+				</ul>
+				</p>	
+			</li>
+			<li>
+			  <p>Before you install the theme, make sure your wordpress version is 3.0 or higher. Then upload the latest version from folder "Themefiles" find the latest version as stated in the themeforest item description page, open the folder of the version you want to choose and copy the <strong>victoria</strong> folder under that folder and upload it to your wordpress themes 
+			  directory:/wp-content/themes/ through your FTP Client. It should read like wp-content/themes/victoria Not as wp-content/themes/1.0/victoria/<br>
+			  <strong>Do not upload the whole folder</strong> of the zip package you downloaded from themeforest.</p>
+			</li>
+			<li><p><span class="note">After uploading to the server make sure you change the permission to 777 for skin.css and cache folder, which is located in the css folder and cache folder is located in root folder of the theme.</span></p></li>
+			<li><p>Next Log into your WordPress admin panel and go to Appearance &rarr; Themes (submenu). After that is done, activate the theme as you do activate other themes.</p></li>
+			<li><p>Once theme is activated you will see the new Menu above the appearance tab which says <strong>victoria</strong>. Click on it to goahead and save changes for the theme options to load default settings for the theme.</li>
+	    </ol>
+	</div>
+	<!-- ################################# -->
+	<div id="3">
+		<h2 class="name">03<span>Navigation/Menu Setup</span></h2>
+		<p><strong>victoria</strong> user wp default navigation, you can use WordPress's Custom Navigation Menu system.</p>
+		<ul>
+			<li>Go to wp-admin > Appearance > Menus and create top menu then assign the menu locations and then add your menu items to the Menu's</li>
+			<li>Theme uses 1 Menu which appears on header beside the logo which is primary menu.</li>
+		</ul>
+		<p>Go to <a target="_blank" href="http://codex.wordpress.org/Administration_Panels#Appearance">Appearance</a> -> <a target="_blank" href="http://codex.wordpress.org/Administration_Panels#Menus">Menus</a> subpanel and add two menu items as shown in the “<a target="_blank" href="http://codex.wordpress.org/Appearance_Menus_SubPanel">Wordpress Official Documentation</a>“.</p>
+		<p>or</p>
+		<p>Just in case if you feel difficult anywhere below is the useful resources.  <a href="http://codex.wordpress.org/Function_Reference/wp_nav_menu">Function Reference/wp nav menu</a></p>
+	</div>
+	<!-- ################################# -->  
+	<div id="4">
+		<h2 class="name">04<span>Sliders Setup</span></h2>
+		<p><strong>Victoria</strong> has 3 different sliders and Cycle Slider has 3 Stages 'Partial Left', 'Partial Right' and 'Full Width' layouts. Go to theme options first and then select the slider options like limit of the slider and then follow the below steps.</p>
+		<ul>
+			<li><p><strong>Carousel Slider </strong> - Go to Food Menu Tab in wp-admin menu and click on Add New Food Items then add the content for the slider to show as summary of the item and then Upload the image using media library icon on above the wordpress content editor and assign the image as <strong>Featured Image</strong> which will be displayed as item image.</p></li>
+       	</ul>
+		<div class="divider"></div>
+		<ul>
+        	<li><p><strong>Cycle Slider </strong> - Go to slide tab in wp-admin menu and click on Add New Slide then add the content for the slider then Upload from the custom fields Upload image below the content editor. Upload Featured Image which will be displayed on partial left or right which you can choose from meta options below in Slider Meta Options Area.</p></li>
+       	</ul>
+		<div class="divider"></div>
+		<ul>
+			<li><p><strong>Single Image Slider </strong> - Go to slide tab in wp-admin menu and click on Add New Slide then add the content for the slider then Upload the static image from theme options panel and you can link that image to any custom link. Make sure the width is 1020x360 pixels.</p></li>
+       	</ul>			
+		<div class="divider"></div>
+		<ul>
+			<li><p><strong>Video Slider </strong> - Go to Theme Options panel and under the slider options tab select the slider as Video and then below the dropdown you will find the video textarea where you have to insert the embed video code to display here the video size should not exceeed the width 1020px.</p></li>
+       	</ul>
+		<div class="divider"></div>
+		<!-- ################################# -->
+		<h3>How to Assign Featured Image</h3>
+		<p class="center"><img src="assets/images/slidesetup.png" alt="" /></p>			
+		<ol>
+			<li><p><strong> Add Slides </strong> - Go to Slide menu in left wp-admin menu tabs and click on add slide to add posts for the slides. The same applies for Food Menu Items also.</p> </li>
+			<li><p><strong> Featured Image</strong> - Locate the Featured Image module on right side and click the Set featured image link. You will see an uploading screen identical to that used when inserting an image into a blog post. Follow the on-screen prompts to choose the image from your computer and upload it or choose it from one of the images already in your Media Library.
+			<li><p><strong> Use as featured image</strong> - Once the image has successfully been uploaded, look underneath the sizing options, and click on the Use as featured image link. Your Feature image is now set! You can close the Media selector once you’ve chosen the featured image. The image will then appear wherever a featured image is available. </p></li>
+			<li><p><strong> Slide Options</strong> - After that you have an options below that how you want to populate your slide link, link to post, link to category, link to page, or link to manual/external link.</p></li>
+		</ol>
+		<p>Your Slide Options are done now! You can now publish the post and come down to homepage to view the slider, similarly you can add more slides. </p>
+	</div>
+	<!-- ################################# -->
+	<div id="5">
+		<h2 class="name">05<span>Frontpage Content Layout</span></h2>
+		<p><strong>victoria</strong> - Uses page functionality for the frontpage which will be easy to use frontpage as a page. Go to theme options panel under Homepage tab then look for Homepage Content Select option where you can use the page to display on the homepage below the slider. Check the image below</p>
+		<p class="center"><img src="assets/images/home.png" alt="" /></p>	
+		<div class="divider"></div>
+	<!-- ################################# -->
+	<div id="6">
+		<h2 class="name">06<span>Custom Sidebars Setup</span></h2>
+		<p><strong>victoria</strong> use custom sidebar generator option on <span class="panel_title">victoria</span> -> <span class="panel_title">Custom Sidebars</span>, Create the sidebars you want to have in the theme.</p>
+		<p>You will now see your newly created custom sidebar available by clicking on Appearance -> Widgets on your WordPress administration menu. You can now add Widgets to your newly created sidebar.</p>
+	</div>
+	<!-- ################################# -->
+	<div id="7">
+		<h2 class="name">07<span>Food Menu</span></h2>
+		<p>Add new Food Types for Food Items by clicking on Food Menus -> Food Types - see in bottom of your wp menu tabs</p>
+		<p class="center"><img src="assets/images/foodmenu.png" alt="" /></p>
+		<p>Add new image for the Food Type (Desert/Salads/Russian) etc. While adding Food Types find a field for Menutype image and upload the image from media library then copy the URL and paste in the field see in bottom image.</p>			
+		<p class="center"><img src="assets/images/foodmenuimage.png" alt="" /></p>			
+		<p><strong>Add Food Item</strong> - Go to Add Item and write a title for the meals and in place of custom fields enter the price for that meals and meal description as well as that copy the meal description in post excerpt field as well.</p>
+		<p><strong>Featured Image</strong> - Locate the Featured Image module on right side and click the Set featured image link. You will see an uploading screen identical to that used when inserting an image into a blog post. Follow the on-screen prompts to choose the image from your computer and upload it or choose it from one of the images already in your Media Library.</p>
+		<p><strong>Use as featured image</strong> - Once the image has successfully been uploaded, look underneath the sizing options, and click on the Use as featured image link. Your Feature image is now set! You can close the Media selector once you’ve chosen the featured image. The image will then appear wherever a featured image is available. Your Feature image is now set! You can close the Media selector once you’ve chosen the featured image. The image will then appear wherever a featured image is available.</p>
+	</div>
+	<!-- ################################# -->
+	<div id="8">
+		<h2 class="name">08<span>Add Food Menu Page</span></h2>
+		<h3>Now Add New Page select template as Menu from attributes panel in rightside.</h3>
+		<p>Below your wordpress content editor find a Shortcodes options panel, Feel free to use any shortcodes if you want to display above the menu items or let the page display only the menu items.</p>
+		<h3><mark class="red">NEW</mark> Add Individual Page for your each Menu Items.</h3>
+		<p>Create a page and right below your wordpress content editor find the shortcode generator select 'Food Menu' shortcode from the list and select the category items and enter the limit to display for pagination or if you want to have the layout 
+		for the menu list items to be displayed in 2 columns layout then check the Columns button and switch it on so then send to editor make sure you select the layout option in below options area as Full Width layout but still you can have a sidebar layout as well.</p>
+	</div>
+	<!-- ################################# -->
+	<div id="9">
+		<h2 class="name">09<span>Todays Special</span></h2>
+		<p>Add Shortcode Todays special as shown in live preview frontpage from shortcodes panel, its listed in last as <strong>todays special</strong> Add the Tags while creating the Food Items so that it will be pulled based on the post tags. </p>
+		<p>While adding food items make sure you define the tags for those items as specials, weekly special or deserts or salads so that the 'todays special'(shortcode) and 'specials widget' (widget) can be crawled and display the results.</p>
+	</div>
+	<!-- ################################# -->
+	<div id="10">
+		<h2 class="name">10<span>Reservation Table</span></h2>
+		<h4>Add Tables</h4>
+		<ul>
+			<li>Go to Reservations tab and find tables navigation where you can add the tables and define its limit of the people can be seated on that table and define its name. It will be convenient for you to book a reservation for the client. See image below.</li>
+		</ul>
+		<p class="center"><img src="assets/images/reservation.png" alt="" /></p>			
+
+		<h4>Manage Booking Reservations</h4>
+		<ul>
+			<li>Go to Reservations tab where you can edit the reservations and there in the below custom fields you can change the dates of the booking for those tables and select the table suitable for the clients and update the booking with a status confirmed/cancelled or unconfirmed. Once confirmed is checked and post is updated the email will be sent to the client with a status message saying that your table reservation has been confirmed.</li>
+		</ul>
+		<h4>Manage E-mail Messages</h4>
+		<ul>
+			<li>Go to Theme Options panela and click Email Setups tab where you can set your own messages for the clients. In that text area there is a default message set by us. If you want to change the content please do so and make sure you do not edit the shortcodes in the fields like [client_name] [restaurant_name] etc as it defines the name of that particular client who booked an reservation.</li>
+		</ul>
+	</div>
+	<!-- ################################# -->
+	<div id="11">
+		<h2 class="name">11<span>Victoria Options</span></h2>
+		<h4>Manage Business Hours</h4>
+		<p> Go to theme options panel and under the business hours tab you can define the business hours for the whole week. If your restaurant is closed then you can check the closed option there then if the user while booking selected that day it will show that the restaurant is closed on the selected day.</p> 
+		<h4>Reservation Page</h4>
+		<p> Go to pages create a new page called reservation and select the template as reservation and then publish the page. Then come back to options panel and under the victoria options tab you need to select the page you created just now for the reservation page.</p> 
+	</div>
+	<!-- ################################# -->
+	<div id="12">
+		<h2 class="name">12<span>Blog Page Setup</span></h2>
+		<p><strong>Victoria</strong> - uses a simple method for creating the blog pages, Go to Pages -> Add New, in your Wordpress administration menu and create a new page with name blog or your desired name of the page and assign the template as blog page. Assign a template as blog.</strong> After that select the categories to hold in 'Blog Options' from theme options panel.</p>
+	</div>
+	<!-- ################################# -->
+	<div id="13">
+		<h2 class="name">13<span>Shortcodes</span></h2>
+       	<p><strong>Victoria</strong> - uses Wordpress Send To Editor functionality for inserting shortcodes into your wordpress content editor, The shortcodes options can be found just below your wordpress content editor. Select the type of the shortcode you want to choose and then assign its values and click on send to editor button.</p>
+		<p class="center"><img src="assets/images/shortcodegen.png" alt="" /></p>
+	</div>
+	<!-- ################################# -->
+	<div id="14">
+		<h2 class="name">14<span>Footer Setup</span></h2>
+		<p><strong>Victoria</strong> - have mutilple options for footer columns, you can assign upto 6 columns in footer and if you want you can disable the sidebar footer by going to Victoria -> Footer in your wordpress administration menu. See the image below. Once you setup the columns here then go to your wordpress widgets tab by going to Appearance -> Widgets tab in your wordpress administration menu and assing your own widgets in the newly created footer column widgets.</p>
+	</div>
+	<!-- ################################# -->
+	<div id="15">
+		<h2 class="name">15<span>Custom Font</span></h2>
+		<p><strong>Victoria</strong> - uses custom google web fonts and cufon fonts as well. if you want to use any then go to theme options panel skinning tab browse throught where you can choose the custom google web fonts etc in typography section.</p>
+		<p>If you want to choose the cufon fonts then you can go to Typography and enable the cufon font and and then select then font you want and preview then save changes.</p>
+		<p>Note: If you are are using google web fonts then switch of the Cufon option otherwise theme will take time to load. Instead of loading in 5 seconds it will load in 7 or 8 seconds.</p>
+	</div>
+	<!-- ################################# -->
+	<div id="16">
+		<h2 class="name">16<span>Colors</span></h2>
+		<p><strong>Victoria</strong> - have mutilple options for theme which you can set and change the complete visualization of the theme, which contains max amount of colors and if you want a header background image you can assign that background image in General Tab in Victoria options.</p>
+		<p>Theme comes with 1 color preset as well which you can change from theme options panel.</p>
+	</div>
+	<!-- ################################# -->
+	<div id="17">
+		<h2 class="name">17<span>Import / Export Sample Data</span></h2>
+		<p>Go to Theme Package Downloaded from themeforest open <strong>Sample Data</strong> folder which contains the xml file for sample data as you see on the live preview of the theme. Open your wp admin and under Tools tab click import option and in that click on the <br>
+		<em>(WordPress 	Import posts, pages, comments, custom fields, categories, and tags from a WordPress export file.) and select the file whichis provided for you in the sample data folder. and save chages.</em></p>
+		<p>If you get any error in executing the content as time limit execution etc then do the follow the  procedure here http://codex.wordpress.org/Importing_Content </p>
+	</div>
+	<!-- ################################# -->
+	<div id="18">
+		<h2 class="name">18<span>Sidebar Layout</span></h2>
+		<p>Go to Page you want to have full width or any desired sidebar positioning and then in custom fields area below the content editor see the layout Options field where you can select the sidebar layout or custom sidebars and then publish the page.</em></p>
+		<p><strong>Note: If you have any queries then register to our support forum and then post your question and we will help you out in getting your queries resolved.</strong></p>
+	</div>
+	<!-- ################################# -->
+	<div id="19">
+		<h2 class="name">19<span>Get the Code</span></h2>
+		<ol>
+		<li>
+		<p><strong>Frontpage teaser area widget shortcode. go to the widgets and in <em>Homepage Teaser Text</em> place a text widget and insert the following code and alter according to your rquirements	</strong></p>
+<pre>
+[one_half]
+&lt;img src="http://www.aivahthemes.com/victoria/files/2011/12/banner.png" width="460" height="175"/>
+[/one_half]
+[one_half_last]
+&lt;h3>Frontpage teaser text widget with ease in functionality &lt;a href="#">Link&lt;/a> Quisque dignissim, ante sit amet imperdiet ultricies,&lt;/h3>
+&lt;p>&lt;em>Quisque dignissim, ante sit amet imperdiet ultricies, felis enim luctus leo, et cursus leo libero in nisi. Donec sit amet ipsum velit, a faucibus purus Quisque dignissim, ante sit amet imperdiet ultricies, felis enim luctus leo, et cursus leo libero in nisi. Donec sit amet ipsum velit, a faucibus purus&lt;/em>&lt;/p>
+[/one_half_last]
+</pre>
+		</li>
+		<li>
+		<p><strong>Mini Gallery Shortcode</strong></p>
+<pre>
+[minigallery class="image" width="140" height="140"]
+http://www.aivahthemes.com/victoria/files/2011/11/13.jpg
+http://www.aivahthemes.com/victoria/files/2011/11/16.jpg
+http://www.aivahthemes.com/victoria/files/2011/12/9.jpg
+http://www.aivahthemes.com/victoria/files/2011/12/13.jpg
+http://www.aivahthemes.com/victoria/files/2011/12/15.jpg
+http://www.aivahthemes.com/victoria/files/2011/12/11.jpg
+http://www.aivahthemes.com/victoria/files/2011/12/12.jpg
+http://www.aivahthemes.com/victoria/files/2011/12/10.jpg
+http://www.aivahthemes.com/victoria/files/2011/12/2.jpg
+http://www.aivahthemes.com/victoria/files/2011/12/14.jpg
+[/minigallery]
+</pre>
+		</li>
+		<li>
+		<p><strong>Homepage Widgets Shortcode</strong></p>
+<pre>
+&lt;img src="http://www.aivahthemes.com/victoria/files/2011/12/widget1.png" width="300" height="120"/>
+&lt;h4>Frontpage Column 1 Widget&lt;/h4>
+Quisque dignissim, ante sit amet imperdiet ultricies, felis enim luctus leo, et cursus leo libero in nisi. Donec sit amet ipsum velit, a faucibus purus
+</pre>
+		</li>
+</ol>
+	</div>
+		
+		
+<h2 class="name">All Done!<span></span></h2>
+<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forum here <a href="http://www.themeflash.com/support" target="_blank">Click Here</a> and ask your questions, For registering into forums you need to email me from my themeforest profile page contact form in sidebar by that i can verify your purchase of the item and can grant you the access to the forums where you can post all your queries related to my items.</p> 
+<p>Please note that you have to be logged in to see that contact form on my profile page. You can follow me on ThemeForest by clicking <a href="http://themeforest.net/user/system32/follow" target="_blank">here</a>. And for getting updates of items or new item releasing notice you can follow on twitter as well <a href="http://twitter.com/system32store" target="_blank">system32store</a> </p>
+
+
+		<p class="append-bottom alt large"><strong>Have fun! Regards, system32</strong></p><p><a href="http://themeforest.net/user/system32"><img src="assets/avatar.png"></a></p>
+		<p><a href="#top">Go To Table of Contents</a></p>
+		
+</div><!--  End of content container -->
+
+</div><!--  End of content -->
+
+</div><!--  End of main container -->
+</body>
+</html>

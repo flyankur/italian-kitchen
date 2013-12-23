@@ -1,0 +1,75 @@
+
+/*---- B O D Y ----*/
+body {
+	background-image:url(http://www.aivahthemes.com/victoria/files/2012/06/tileable_wood_texture.png);
+        background-repeat:repeat;
+        background-position:left top;
+        background-attachment:fixed;
+	font-size: 12px; line-height: 18px; font-style: normal; 
+}
+
+.bodyoverlay {
+	background-image:url(http://www.aivahthemes.com/victoria/wp-content/themes/victoria/images/patterns/pattern6.png);
+}
+/*----  ----*/
+.topbar { 
+	background-color:#e00707;
+}
+/*---- S U B H E A D E R ----*/
+#subheader {
+	
+	background-color:#e81241;
+	
+	
+}
+/*----  S T I C K Y  ----*/
+#sticky { 
+	background:#f01f1f;
+}
+/*---- Primary Menu  ----*/
+.sf-menu a {
+	font-size: 16px; 
+}
+/* --- H1 --- */
+h1 {
+	font-family: Crete Round; font-size: 30px; line-height: 32px; font-style: normal; 
+}
+/* --- H2 --- */
+h2 {
+	font-family: Crete Round; font-size: 24px; line-height: 27px; font-style: normal; 
+}
+/* --- H3 --- */
+h3 {
+	font-family: Crete Round; font-size: 20px; line-height: 23px; font-style: normal; 
+}
+/* --- H4 --- */
+h4 {
+	font-family: Crete Round; font-size: 18px; line-height: 20px; font-style: normal; 
+}
+/* --- H5 --- */
+h5 {
+	font-family: Crete Round; font-size: 14px; line-height: 17px; font-style: normal; 
+}
+/* --- H6 --- */
+h6 {
+	font-family: Crete Round; font-size: 12px; line-height: 14px; font-style: normal; 
+}
+/* --- Post Entry Title --- */
+h2.entry-title a { 
+	font-size: 18px; line-height: 24px; font-style: normal; 
+}.teaserbox .teaserbox_content { 
+	color: #e3d2aa; 
+}.teaserbox { 
+	background-color:#573f2f;
+}
+/* --- Widget Title --- */
+.widget-title { 
+	line-height: 16px; font-style: normal; 
+}
+.fp-widget h4 {
+	font-family: Bangers; font-size: 27px; 
+}
+.copyright { 
+	
+	font-family: Droid Serif; font-size: 11px; line-height: 20px; font-style: normal; 
+}
