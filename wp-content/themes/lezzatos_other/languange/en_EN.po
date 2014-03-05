@@ -1,0 +1,248 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lezzatos\n"
+"POT-Creation-Date: 2013-08-12 12:32+0700\n"
+"PO-Revision-Date: 2013-08-12 12:32+0700\n"
+"Last-Translator: Designesia <designesia@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\lezatos\\wp-content\\themes"
+"\\lezzatos\n"
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/404.php:8
+msgid "Page not found!"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/comments.php:3
+msgid "Comments"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/comments.php:17
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/comments.php:33
+msgid "Comments are closed."
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/comments.php:43
+msgid "Leave a Comment"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/comments.php:43
+#, php-format
+msgid "Leave a Comment to %s"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/comments.php:50
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/comments.php:57
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/comments.php:57
+msgid "Log out of this account"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/comments.php:70
+msgid "Submit Comment"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/functions.php:178
+msgid "Primary Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/functions.php:179
+msgid "Secondary Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/index.php:34
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_blog.php:41
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/single.php:37
+msgid "By"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/index.php:34
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_blog.php:41
+msgid "Read More"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page.php:10
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_contact.php:93
+msgid "Sorry, no posts found."
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_contact.php:102
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_reservation.php:125
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-widget-social.php:111
+msgid "Name"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_contact.php:105
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_contact.php:112
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_contact.php:119
+msgid "Please check again."
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_contact.php:109
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_reservation.php:132
+msgid "Email"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_contact.php:116
+msgid "Message"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_contact.php:127
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_reservation.php:172
+msgid "SEND"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_contact.php:136
+msgid "Thank You! Your email was successfully sent."
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_reservation.php:139
+msgid "Person"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_reservation.php:146
+msgid "Date"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_reservation.php:154
+msgid "Time"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/page_reservation.php:161
+msgid "Comment"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/admin/classes/class.options_machine.php:458
+msgid "Last Backup : "
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/admin/classes/class.options_machine.php:617
+msgid "Upload"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/admin/functions/functions.mediauploader.php:20
+msgid "Options"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/admin/functions/functions.mediauploader.php:210
+msgid "Gallery"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/admin/functions/functions.mediauploader.php:210
+msgid "Previously Uploaded"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:12
+msgid "Add New Menu Item"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:13
+msgid "Edit Menu Item"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:14
+msgid "New Menu Item"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:15
+msgid "View Menu Item"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:16
+msgid "Search Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:17
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:59
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:101
+msgid "Nothing found"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:18
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:60
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:102
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:40
+msgid "Categories"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:40
+msgid "Menu Category"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:54
+msgid "Add New Gallery Item"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:55
+msgid "Edit Gallery Item"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:56
+msgid "New Gallery Item"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:57
+msgid "View Gallery Item"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:58
+msgid "Search Gallery"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:82
+msgid "Gallery Categories"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:82
+msgid "Gallery Category"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:96
+msgid "Add New Slider Item"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:97
+msgid "Edit Slider Item"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:98
+msgid "New Slider Item"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:99
+msgid "View Slider Item"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-theme-post-type.php:100
+msgid "Search Slider"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-widget-social.php:21
+msgid "A widget that displays the social icons"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-widget-social.php:25
+msgid "DE Social Widget"
+msgstr ""
+
+#: C:\xampp\htdocs\lezatos\wp-content\themes\lezzatos/designesia/de-widget-social.php:111
+msgid "Example"
+msgstr ""

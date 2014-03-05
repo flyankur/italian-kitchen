@@ -1,8 +1,0 @@
-<div class="share">
-    <a class="twitter" onclick="window.open('http://twitter.com/home?status=<?php echo urlencode(get_the_title());?> - <?php the_permalink(); ?>','twitter','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return false;" href="http://twitter.com/home?status=<?php echo urlencode(get_the_title());?>%20-%20<?php the_permalink(); ?>" title="<?php the_title();?>" target="960development"></a>
-    <a class="facebook" onclick="window.open('http://www.facebook.com/share.php?u=<?php the_permalink(); ?>','facebook','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return false;" href="http://www.facebook.com/share.php?u=<?php the_permalink(); ?>" title="<?php the_title();?>"  target="960development"></a>
-    <a class="google" href="https://m.google.com/app/plus/x/?v=compose&amp;content=<?php echo urlencode(get_the_title());?>%20-%20<?php the_permalink(); ?>" onclick="window.open('https://m.google.com/app/plus/x/?v=compose&amp;content=<?php echo urlencode(get_the_title());?> - <?php the_permalink(); ?>','gplusshare','width=450,height=300,left='+(screen.availWidth/2-375)+',top='+(screen.availHeight/2-150)+'');return false;"></a>
-    <a class="print" href="javascript:window.print()" title="Print"></a>
-    <?php $pinterestimage = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); ?>
-    <a href="http://pinterest.com/pin/create/button/?url=<?php echo urlencode(get_permalink($post->ID)); ?>&media=<?php echo $pinterestimage[0]; ?>&description=<?php the_title(); ?>" class="pin-it-button" count-layout="none">Pin It</a>
-</div>

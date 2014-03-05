@@ -1,0 +1,13 @@
+#slider-text{margin:0 auto; background:#ccc;}
+#slidecaption{position:fixed;top:130px; height:auto; width:100%;}
+.slide_text{ margin-top:5px; font-size:14px; background:url(../images/dotwhite80.png); padding:30px; font-family:"Open Sans",Arial; line-height:1.7em; font-weight:normal; text-shadow:none; color:#333; font-weight:500; border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px;}
+.slide_text p{ margin:auto;}
+#slidecaption h2{font-size:26px; color:#333; text-shadow:none;}
+
+/* -------------------------------------------------- 
+	design for 480px
+/* -------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+.slide_text{ display:none; margin:0 auto;}
+}
+

@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header,
+#mainmenu select,
+#bloglist .date,
+#blogread .date,
+#footer,
+.tagcloud a{
+	background:#97552c;
+}
+
+.btn,
+.menu-item .price,
+#menu-thumbnail-view .price,
+.single-menu .price,
+#mainmenu li li a:hover,
+.separator-b,
+.page a:hover,
+.page .active a,
+#contact input.btn,
+#tab-content ul li a:hover,
+#tab-content .nav li a,
+#respond input.button,
+.pagination a:hover,
+.pagination .current,
+.page a:hover,
+.page .active a,
+.category li.active a,
+.category li a:hover,
+.blog_format_quote,
+.blog_format_link:hover,
+a.btn_readmore,
+span.overlay{
+	background-color: #b06e20;
+}
+span.overlay{
+background-image: url(../images/hover_pic.png) center no-repeat;
+}
+
+a,
+.idcolor,
+#twitter span a{
+	color:#b06e20;
+}
+
+code:hover,
+#contact input:focus,
+#contact textarea:focus,
+#respond textarea:focus{
+	border:solid 1px #b06e20;
+}
+
+
+#mainmenu li li a,
+#mainmenu a:hover,
+#mainmenu li:hover a {
+	background: #b06e20;
+}
+
+::-moz-selection,
+::selection{
+	background: #b06e20;
+}
+
+
+
