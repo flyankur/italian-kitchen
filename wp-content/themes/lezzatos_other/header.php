@@ -51,10 +51,19 @@
 		 <?php 	include 'slider/fullscreen-slider.php'; } ?>
 		<?php wp_reset_query(); ?>    
 <div id="canvas">	
-	<div style="position:absolute; top:0; left:0; width: 239px; height:100px;z-index: 10000;color: white;margin-top: 39px;">
-		<img style="width:50px; height:50px;" src="http://italiankitchen.co/wp-content/uploads/2014/03/icon_26575.png"/>
-		<div>For Home delivery call us at <span>+ 91 8829055855</span></div>
+<div style="position:absolute; top:0; left:0; width: 239px; height:100px;z-index: 10000;color: white;margin-top: 39px;display: inline;">
+		<img style="width:50px; height:50px;float: left;display: inline;padding-left: 5px;" src="http://italiankitchen.co/wp-content/uploads/2014/03/icon_26575.png">
+		<div style="
+    float: left;
+    display: inline;
+    padding-top: 2px;
+    padding-left: 10px;
+">For Home Delivery call us at <p style="
+    font-size: 29px;
+    padding-top: 5px;
+">8829055855</p></div>
 	</div>
+	
 <div id="header" class="header">
     <div class="container">
     	<div class="four columns">
