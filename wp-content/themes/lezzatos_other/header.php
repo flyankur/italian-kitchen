@@ -52,7 +52,8 @@
 		<?php wp_reset_query(); ?>    
 <div id="canvas">	
 	<div style="position:absolute; top:0; left:0; width:100px; height:100px;">
-		For Home delivery call us at + 91 8829055855
+		<img style="width:50px; height:50px;" src="http://italiankitchen.co/wp-content/uploads/2014/03/icon_26575.png"/>
+		For Home delivery call us at <span>+ 91 8829055855</span>
 	</div>
 <div id="header" class="header">
     <div class="container">
