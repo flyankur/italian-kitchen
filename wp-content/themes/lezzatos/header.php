@@ -50,7 +50,10 @@
 		<script type='text/javascript' src='<?php echo get_template_directory_uri()?>/js/supersized/theme/supersized.shutter.min.js'></script>
 		 <?php 	include 'slider/fullscreen-slider.php'; } ?>
 		<?php wp_reset_query(); ?>    
-<div id="canvas">	
+<div id="canvas">
+	<div style="position:absolute; top:0; left:0; width:100px; height:100px;">
+		For Home delivery call us at + 91 8829055855
+	</div>
 <div id="header" class="header">
     <div class="container">
     	<div class="four columns">
