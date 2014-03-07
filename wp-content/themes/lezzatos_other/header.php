@@ -61,7 +61,7 @@
 ">For Home Delivery call us at <p style="
     font-size: 29px;
     padding-top: 5px;
-">8829055855</p></div>
+">0141-4033570</p></div>
 	</div>
 	
 <div id="header" class="header">
