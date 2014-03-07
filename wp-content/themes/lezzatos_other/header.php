@@ -59,7 +59,7 @@
     padding-top: 2px;
     padding-left: 10px;
 ">For Home Delivery call us at <p style="
-    font-size: 29px;
+    font-size: 26px;
     padding-top: 5px;
 ">0141-4033570</p></div>
 	</div>
